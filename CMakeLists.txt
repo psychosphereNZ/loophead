@@ -32,8 +32,8 @@ juce_add_plugin(Loophead
     COPY_PLUGIN_AFTER_BUILD  FALSE)
 
 target_sources(Loophead PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginEditor.cpp)
+       PluginProcessor.cpp
+       PluginEditor.cpp)
 
 target_compile_definitions(Loophead PUBLIC
     JUCE_WEB_BROWSER=0
