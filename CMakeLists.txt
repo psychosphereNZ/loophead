@@ -19,6 +19,7 @@ endif()
 
 juce_add_plugin(Loophead
     COMPANY_NAME             "G Audio"
+    BUNDLE_ID                com.gaudio.loophead
     PLUGIN_MANUFACTURER_CODE Gaud
     PLUGIN_CODE              Lph1
     FORMATS                  VST3 AU Standalone
